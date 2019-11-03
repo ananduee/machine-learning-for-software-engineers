@@ -142,6 +142,12 @@ Each day I take one subject from the list below, read it cover to cover, take no
 - [x] [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/) - Notes have been added in Introduction section. Very good article overall gives a good overview of decison tree model and importance of varibales. 
 - [x] [A Gentle Guide to Machine Learning](https://blog.monkeylearn.com/a-gentle-guide-to-machine-learning/)
 - [ ] [Introduction to Machine Learning for Developers](http://blog.algorithmia.com/introduction-machine-learning-developers/)
+  - unsupervised learning is used for pattern detection.
+  - K-means clustering is an unservised algorithm where data is given along with number of groups. It then uses distance metric to minimize eucledian distance from the centroid. Each data point is assigned to a centorid in each iteration.
+    - Each group which results from K-means clustering is calling Vornoi-cell.
+  - Supervised learning is when data is pre-labelled. They are used in regression or classification.
+    - Classification algorithms are mainly of three types Naive-Bayes classifier, Decison tree, Neural network.
+    - In naive-bayes features are independent of each other 
 - [ ] [Machine Learning basics for a newbie](https://www.analyticsvidhya.com/blog/2015/06/machine-learning-basics/)
 - [ ] [How do you explain Machine Learning and Data Mining to non Computer Science people?](https://www.quora.com/How-do-you-explain-Machine-Learning-and-Data-Mining-to-non-Computer-Science-people)
 - [ ] [Machine Learning: Under the hood. Blog post explains the principles of machine learning in layman terms. Simple and clear](https://georgemdallas.wordpress.com/2013/06/11/big-data-data-mining-and-machine-learning-under-the-hood/)
